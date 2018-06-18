@@ -1,0 +1,4 @@
+preg,Correlation=0.2218981530339883
+mass,Correlation=0.29269466264444666
+plas,Correlation=0.46658139830687567
+age,Correlation=0.23835598302719743
