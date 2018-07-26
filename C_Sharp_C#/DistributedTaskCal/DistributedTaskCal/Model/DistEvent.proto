@@ -1,0 +1,18 @@
+message DistCalendarEvent {
+	required int32 id = 1;
+	required string title = 2;
+	required int64 date = 3;
+	optional string start_time = 4;
+	optional string end_time = 5;
+	optional string location = 6;
+	optional bool allday = 7;
+	
+	enum EventType {
+		NORMAL = 0;
+		BIRTHDAY = 1;
+		MEETING = 2;
+		PUBLIC_HOLIDAY = 3;
+	}
+	
+	required EventType type = 8;
+}

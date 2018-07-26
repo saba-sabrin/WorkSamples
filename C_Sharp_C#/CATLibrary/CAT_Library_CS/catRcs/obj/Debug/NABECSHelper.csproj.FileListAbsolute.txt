@@ -1,0 +1,9 @@
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\AnalyseCBALog\NABECSHelper\NABECSHelper\bin\Debug\NABECSHelper.dll
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\AnalyseCBALog\NABECSHelper\NABECSHelper\bin\Debug\NABECSHelper.pdb
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\AnalyseCBALog\NABECSHelper\NABECSHelper\obj\Debug\NABECSHelper.dll
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\AnalyseCBALog\NABECSHelper\NABECSHelper\obj\Debug\NABECSHelper.pdb
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\Bin\NABECSHelper.dll
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\Bin\NABECSHelper.pdb
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\NABECSHelper\obj\Debug\NABECSHelper.csprojResolveAssemblyReference.cache
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\NABECSHelper\obj\Debug\NABECSHelper.dll
+D:\work\tba_svn\zib-nabe2012-readingmode-dataset\CS\NABECSHelper\obj\Debug\NABECSHelper.pdb

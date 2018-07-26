@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GTM.GHIElectronics.DistanceUS3</name>
+    </assembly>
+    <members>
+        <member name="T:Gadgeteer.Modules.GHIElectronics.DistanceUS3">
+            <summary>A DistanceUS3 module for Microsoft .NET Gadgeteer</summary>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DistanceUS3.#ctor(System.Int32)">
+            <summary>Constructs a new instance.</summary>
+            <param name="socketNumber">The socket that this module is plugged in to.</param>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DistanceUS3.GetDistance">
+            <summary>Takes a number of measurements and returns the average in centimeters.</summary>
+            <returns>The averaged distance or SensorError.</returns>
+        </member>
+        <member name="M:Gadgeteer.Modules.GHIElectronics.DistanceUS3.GetDistance(System.Int32)">
+            <summary>Takes a number of measurements and returns the average in centimeters.</summary>
+            <param name="measurements">The number of measurements to take and average.</param>
+            <returns>The averaged distance or SensorError.</returns>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.DistanceUS3.SensorError">
+            <summary>The value that will be returned when the sensor failed to take an accurate reading.</summary>
+        </member>
+        <member name="P:Gadgeteer.Modules.GHIElectronics.DistanceUS3.AcceptableErrors">
+            <summary>The number of errors to encounter before returning SENSOR_ERROR.</summary>
+        </member>
+    </members>
+</doc>

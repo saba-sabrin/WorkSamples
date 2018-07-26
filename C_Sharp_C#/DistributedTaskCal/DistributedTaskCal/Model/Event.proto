@@ -1,0 +1,28 @@
+// [START java_declaration]
+//option java_package = "org.umundo.protobuf";
+// [END java_declaration]
+
+// [START csharp_declaration]
+// option csharp_namespace = "DistributedTaskCal.ProtoFiles";
+// [END csharp_declaration]
+
+// [START messages]
+message Event {
+	required int32 id = 1;
+	required string title = 2;
+	optional string start_time = 3;
+	optional string end_time = 4;
+	optional string location = 5;
+	optional string description = 6;
+	optional bool allday = 7;
+	
+	enum EventType {
+		NORMAL = 0;
+		BIRTHDAY = 1;
+		MEETING = 2;
+		PUBLIC_HOLIDAY = 3;
+	}
+	
+	required EventType type = 8 [default = NORMAL];
+}
+// [END messages]

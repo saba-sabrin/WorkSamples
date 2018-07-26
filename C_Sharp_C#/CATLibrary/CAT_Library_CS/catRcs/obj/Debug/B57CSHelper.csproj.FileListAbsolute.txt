@@ -1,0 +1,4 @@
+D:\work\tba_svn\B57DataSets\CS\Bin\B57CSHelper.dll
+D:\work\tba_svn\B57DataSets\CS\Bin\B57CSHelper.pdb
+D:\work\tba_svn\B57DataSets\CS\B57CSHelper\obj\Debug\B57CSHelper.dll
+D:\work\tba_svn\B57DataSets\CS\B57CSHelper\obj\Debug\B57CSHelper.pdb

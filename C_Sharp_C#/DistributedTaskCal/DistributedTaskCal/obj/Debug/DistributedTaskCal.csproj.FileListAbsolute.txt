@@ -1,0 +1,13 @@
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\DistributedTaskCal.exe.config
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\DistributedTaskCal.exe
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\DistributedTaskCal.pdb
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\protobuf-net.dll
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\System.Net.Http.dll
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\umundoCSharp.dll
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\bin\Debug\System.Net.Http.xml
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.frmCalendarMain.resources
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.Properties.Resources.resources
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.csproj.GenerateResource.Cache
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.exe
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.pdb
+D:\PROJECT\C#_Projects\DistributedTaskCal\DistributedTaskCal\obj\Debug\DistributedTaskCal.csprojResolveAssemblyReference.cache

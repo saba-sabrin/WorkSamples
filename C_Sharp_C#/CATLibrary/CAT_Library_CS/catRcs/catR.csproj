@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FE064EF-4301-418A-98BA-8F2A7B35B032}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CatRcs</RootNamespace>
+    <AssemblyName>CatRcs</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DynamicInterop">
+      <HintPath>..\packages\DynamicInterop.0.7.4\lib\net40\DynamicInterop.dll</HintPath>
+    </Reference>
+    <Reference Include="RDotNet, Version=1.6.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\R.NET.Community.1.6.5\lib\net40\RDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RDotNet.NativeLibrary, Version=1.6.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\R.NET.Community.1.6.5\lib\net40\RDotNet.NativeLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Functions\EapEST.cs" />
+    <Compile Include="Functions\EapSEM.cs" />
+    <Compile Include="Functions\EPV.cs" />
+    <Compile Include="Functions\Integrate_catR.cs" />
+    <Compile Include="Functions\Ji.cs" />
+    <Compile Include="Functions\KL.cs" />
+    <Compile Include="Functions\MEI.cs" />
+    <Compile Include="Functions\MWI.cs" />
+    <Compile Include="Functions\NextItem.cs" />
+    <Compile Include="Functions\OIi.cs" />
+    <Compile Include="Functions\SemTheta.cs" />
+    <Compile Include="Functions\StartItems.cs" />
+    <Compile Include="Functions\ThetaEST.cs" />
+    <Compile Include="Models\CATItems.cs" />
+    <Compile Include="Models\CBControlList.cs" />
+    <Compile Include="Functions\Ii.cs" />
+    <Compile Include="Functions\Pi.cs" />
+    <Compile Include="CatRLib.cs" />
+    <Compile Include="Models\IiList.cs" />
+    <Compile Include="Models\JiList.cs" />
+    <Compile Include="Models\ModelNames.cs" />
+    <Compile Include="Models\NextItemModel.cs" />
+    <Compile Include="Models\OIiList.cs" />
+    <Compile Include="Models\PiList.cs" />
+    <Compile Include="Models\PiListPoly.cs" />
+    <Compile Include="Models\StartItemsModel.cs" />
+    <Compile Include="Models\UnitRootModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\CheckNaValues.cs" />
+    <Compile Include="Utils\CommonHelper.cs" />
+    <Compile Include="Utils\Maths.cs" />
+    <Compile Include="Utils\RandomNumberHandler.cs" />
+    <Compile Include="Utils\RowColumn.cs" />
+    <Compile Include="Utils\RtoCSDataHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

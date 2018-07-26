@@ -1,0 +1,5 @@
+D:\PROJECT\C#_Projects\HomeAutoSystem\HelloLED\obj\Debug\TinyCLR_DebugReferences.cache
+D:\PROJECT\C#_Projects\HomeAutoSystem\HelloLED\obj\Debug\HomeAutoSystem.Resources.resources
+D:\PROJECT\C#_Projects\HomeAutoSystem\HelloLED\obj\Debug\HomeAutoSystem.csproj.GenerateResource.Cache
+D:\PROJECT\C#_Projects\HomeAutoSystem\HelloLED\obj\Debug\HomeAutoSystem.Resources.tinyresources
+D:\PROJECT\C#_Projects\HomeAutoSystem\HelloLED\obj\Debug\TinyResGen.cache
