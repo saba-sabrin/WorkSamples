@@ -1,6 +1,7 @@
-1. The "Feature Selection" project is part of my Master thesis work. You can get a complete idea about my work from the final presentation slides which I have added here.
-In this application, I have extracted the most important features related to target label. These labels are predefined for the documents used from the dataset. Each document
-is attached with multiple labels. So, my goal was to build ontology for each of the labels depending on different statistical feature selection techniques such as, 
+1. The "Feature Selection" project is part of my Master thesis work.
+2. In this application, I have extracted the most important features related to target label. These labels are predefined for the documents used from the dataset.
+3. You can get a complete idea about my work from the final presentation slides which I have added here.
+4. Each document is attached with multiple labels. So, my goal was to build ontology for each of the labels depending on different statistical feature selection techniques such as, 
 
 ==> Correlation
 ==> Information Gain
